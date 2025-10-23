@@ -1,0 +1,156 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0f0d18;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header.project-header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  position: relative;
+}
+
+.voltar {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  color: #c4b5fd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.voltar:hover {
+  color: #9154ff;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Apresentação do Projeto */
+.projeto-apresentacao {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.projeto-apresentacao img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 20px rgba(145, 84, 255, 0.3);
+}
+
+.projeto-apresentacao p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Tecnologias */
+.tecnologias {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.tecnologias h2 {
+  margin-bottom: 1rem;
+  color: #c4b5fd;
+  font-size: 1.4rem;
+}
+
+.tecnologias ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+}
+
+.tecnologias li {
+  background-color: #1a102f;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #dcd3ff;
+  box-shadow: 0 0 10px rgba(145, 84, 255, 0.15);
+}
+
+/* Galeria */
+.galeria {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.galeria h2 {
+  color: #c4b5fd;
+  margin-bottom: 1rem;
+}
+
+.galeria-imagens {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.galeria-imagens img {
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.galeria-imagens img:hover {
+  transform: scale(1.05);
+}
+
+/* Links */
+.links {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.btn {
+  background-color: #9154ff;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: background 0.3s ease;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #7b3fe3;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #777;
+  font-size: 0.9rem;
+  border-top: 1px solid #1a102f;
+  margin-top: 2rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .galeria-imagens img {
+    width: 90%;
+  }
+  .projeto-apresentacao img {
+    width: 90%;
+  }
+}
