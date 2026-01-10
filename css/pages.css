@@ -135,6 +135,17 @@ h1 {
   background-color: #7b3fe3;
 }
 
+.aplicacao {
+  list-style: none;
+  padding: 0;
+}
+
+.aplicacao li {
+  margin: 8px 0;
+}
+
+
+
 /* Rodapé */
 footer {
   text-align: center;
